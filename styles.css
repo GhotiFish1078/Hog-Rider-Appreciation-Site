@@ -1,0 +1,136 @@
+/* Want a background image of a hog rider*/
+body {
+    background-image: url('pog rider.jpg');
+    background-color: chocolate;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Create a navigation bar */
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: chocolate;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2em;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Style the link components within the navigation bar */
+.navigation-bar a {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding: 10px; /* Pads each side with 15px*/
+}
+
+/* Change color when hovered */
+.navigation-bar a:hover {
+    color: rgb(218, 129, 198);
+    background-color: black;
+}
+
+/* style the welcome message with shadows*/
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    text-shadow: 2px 2px black;
+    padding-bottom: 50px;
+}
+
+/* Create a search bar flexbox*/
+#input-field {
+    display: flex;
+    justify-content: center;
+}
+
+/* Resize the Hog Rider Image */
+button.search-button img#hog-search {
+    width: 40px;
+    height: 40px;
+}
+
+/* Make search bar longer */
+input.search-bar {
+    width: 60%;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+}
+
+/* Change the font of the placeholder text */
+input.search-bar::placeholder {
+    font-size: larger;
+    font-weight: bold;
+}
+
+button.search-button {
+    display: flex;
+    overflow: hidden;
+    padding: 0;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+}
+
+/* Helps change the position of the image within the actual button */
+#hog-search {
+    position:relative;
+}
+
+/* Centre search bar in the middle of the page */
+div.Titleandbar {
+    padding-top: 300px;
+}
+
+#WIP {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    translate: -50% 0;
+    bottom: 0;
+}
+
+#WIP p {
+    margin: 0;
+    text-align: center;
+    background-color: chocolate;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    font-weight: bold;
+    font-size: large;
+    font-family: Helvetica, sans-serif;
+    text-shadow: 1px 1px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
